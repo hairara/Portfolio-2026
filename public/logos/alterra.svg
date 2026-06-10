@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 78" fill="none">
+  <!-- Orange dot overlapping top-right of "alterra" -->
+  <circle cx="188" cy="15" r="15" fill="#F5821F"/>
+  <!-- alterra -->
+  <text x="0" y="54"
+    font-family="'Arial Black', 'Arial Bold', Arial, sans-serif"
+    font-weight="900"
+    font-size="46"
+    fill="#0F3460">alterra</text>
+  <!-- academy -->
+  <text x="3" y="74"
+    font-family="Arial, sans-serif"
+    font-weight="400"
+    font-size="17"
+    letter-spacing="2"
+    fill="#8AAEC8">academy</text>
+</svg>

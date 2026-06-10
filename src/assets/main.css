@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream font-sans text-dark antialiased;
+  }
+}
+
+@layer utilities {
+  .hero-heading-bold {
+    font-variation-settings: 'opsz' 14;
+  }
+
+  .letter-spacing-caps {
+    letter-spacing: 1.32px;
+  }
+}

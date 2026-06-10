@@ -1,0 +1,59 @@
+export const projects = [
+  {
+    id: 1,
+    title: 'Effortless Anesthesia Monitoring',
+    client: 'Siloam Hospitals',
+    year: '2026',
+    tags: ['UX/UI', 'PRODUCT'],
+    image: '/projects/anesthesia.png',
+    bgColor: '#1a1a1a',
+    link: 'https://github.com/hairara/Portfolio',
+    size: 'small',
+  },
+  {
+    id: 2,
+    title: 'Integration Administration of Medication',
+    client: 'Siloam Hospitals',
+    year: '2025',
+    tags: ['UX/UI', 'RESEARCH', 'QA'],
+    image: '/projects/clma.png',
+    bgColor: '#111827',
+    link: 'https://github.com/hairara/Portfolio',
+    size: 'large',
+  },
+  {
+    id: 3,
+    title: 'Alomedika Smart Prescription',
+    client: 'Alodokter',
+    year: '2024',
+    tags: ['UX/UI', 'PRODUCT'],
+    image: '/projects/alomedika.png?v=3',
+    bgColor: '#0f172a',
+    link: 'https://github.com/hairara/Portfolio',
+    size: 'large',
+  },
+  {
+    id: 4,
+    title: 'Seamless Experience Setting Menu',
+    client: 'Vidio',
+    year: '2023',
+    tags: ['UX/UI', 'RESEARCH'],
+    image: '/projects/vidio.png?v=2',
+    bgColor: '#1c1917',
+    link: 'https://github.com/hairara/Portfolio',
+    size: 'small',
+  },
+]
+
+export const featuredImages = [
+  {
+    id: 1,
+    title: 'Meridian Brand Identity',
+    bgGradient: 'from-zinc-900 via-zinc-800 to-zinc-900',
+  },
+  {
+    id: 2,
+    title: 'Digital Experience Design',
+    bgGradient: 'from-stone-900 via-stone-800 to-stone-900',
+  },
+]
