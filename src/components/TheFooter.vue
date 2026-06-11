@@ -107,7 +107,7 @@ const navLinks = [
 
 const connectLinks = [
   { label: 'Instagram', href: 'https://www.instagram.com/hairadifa/' },
-  { label: 'LinkedIn', href: 'www.linkedin.com/in/rifkaputrihairadifa' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/rifkaputrihairadifa/' },
   { label: 'Dribbble', href: 'https://dribbble.com/haiibyde' },
 ]
 </script>
