@@ -5,9 +5,9 @@
     <!-- Logo -->
     <a
       href="#"
-      class="flex items-center gap-2 border border-border rounded-full px-4 py-[7px] shrink-0 hover:border-accent transition-colors duration-200"
+      class="flex items-center gap-2 rounded-full pl-1 pr-4 py-1 shrink-0"
     >
-      <span class="w-2.5 h-2.5 rounded-[5px] bg-accent shrink-0"></span>
+      <img src="/logo-avatar.png" alt="Hairadifa" class="w-8 h-8 rounded-full object-cover shrink-0" />
       <span class="font-semibold text-sm text-dark tracking-wide leading-tight">HAIRADIFA</span>
     </a>
 
