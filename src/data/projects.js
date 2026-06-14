@@ -8,6 +8,7 @@ export const projects = [
     image: '/projects/anesthesia.png',
     bgColor: '#1a1a1a',
     link: 'https://github.com/hairara/Portfolio',
+    slug: 'anesthesia-module',
     size: 'small',
   },
   {
