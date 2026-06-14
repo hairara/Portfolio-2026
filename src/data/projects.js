@@ -41,6 +41,7 @@ export const projects = [
     image: '/projects/vidio.png?v=2',
     bgColor: '#1c1917',
     link: 'https://github.com/hairara/Portfolio',
+    slug: 'vidio-account-settings',
     size: 'small',
   },
 ]
