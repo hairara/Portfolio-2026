@@ -103,6 +103,13 @@ export const caseStudies = {
           'Positioning, narrative, and visual language that gives a brand a clear reason to exist — and a clear place in culture.',
         image: null,
       },
+      {
+        label: 'Scenario 02',
+        title: 'Apakah data yang di kirimkan melalui device sudah akurat dan real-time?',
+        description:
+          'Positioning, narrative, and visual language that gives a brand a clear reason to exist — and a clear place in culture.',
+        image: null,
+      },
     ],
   },
   'vidio-account-settings': {
