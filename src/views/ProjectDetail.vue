@@ -13,7 +13,7 @@
           Back to projects
         </router-link>
 
-        <div class="flex items-center gap-2">
+        <div v-if="study.badge" class="flex items-center gap-2">
           <span class="w-2 h-2 rounded-sm bg-accent shrink-0"></span>
           <span class="text-[11px] font-medium text-muted uppercase tracking-[1.32px]">{{ study.badge }}</span>
         </div>

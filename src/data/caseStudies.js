@@ -1,7 +1,6 @@
 export const caseStudies = {
   'anesthesia-module': {
     projectId: 1,
-    badge: 'Case Study',
     layout: 'figma',
     title: 'Integration Device Anesthesia Module',
     cover: '/projects/anesthesia.png',
