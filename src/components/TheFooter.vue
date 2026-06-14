@@ -10,7 +10,7 @@
               class="font-serif font-black text-accent leading-tight"
               style="font-size: clamp(36px, 5.5vw, 72px);"
             >
-              Let's build
+              {{ isProjectDetail ? 'Need to more discussion?' : "Let's build" }}
             </p>
           </div>
           <div class="overflow-hidden">
@@ -19,7 +19,7 @@
               class="font-serif italic text-grey-42 leading-tight"
               style="font-size: clamp(36px, 5.5vw, 72px);"
             >
-              something great.
+              {{ isProjectDetail ? "Let's contact me." : 'something great.' }}
             </p>
           </div>
         </div>
@@ -99,6 +99,12 @@
 </template>
 
 <script setup>
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+const isProjectDetail = computed(() => route.name === 'project-detail')
+
 const navLinks = [
   { label: 'Projects', href: '#projects' },
   { label: 'Articles', href: '#articles' },
