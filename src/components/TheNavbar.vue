@@ -3,13 +3,14 @@
     class="sticky top-0 z-50 bg-cream border-b border-border h-[72px] flex items-center justify-between px-4 sm:px-8 lg:px-16 anim-nav"
   >
     <!-- Logo -->
-    <a
-      href="#"
-      class="flex items-center gap-2 rounded-full pl-1 pr-4 py-1 shrink-0"
-    >
-      <img src="/logo-avatar.png" alt="Hairadifa" class="w-8 h-8 rounded-full object-cover shrink-0" />
-      <span class="font-semibold text-sm text-dark tracking-wide leading-tight">HAIRADIFA</span>
-    </a>
+    <router-link
+          v-reveal="{ delay: 140 }"
+          to="/"
+          class="hidden sm:flex items-center gap-2 rounded-full pl-1 pr-4 py-1 shrink-0 self-start"
+        >
+          <img src="/logo-avatar.png" alt="Hairadifa" class="w-8 h-8 rounded-full object-cover shrink-0" />
+          <span class="font-semibold text-sm text-dark tracking-wide">HAIRADIFA</span>
+        </router-link>
 
     <!-- Desktop nav -->
     <nav class="hidden md:flex items-center gap-10 lg:gap-12">
