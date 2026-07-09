@@ -11,14 +11,14 @@
       </div>
 
       <!-- Heading: each word clip-reveals from below its own mask -->
-      <div class="flex flex-wrap items-baseline gap-2 sm:gap-3 leading-none pb-4 lg:pb-8">
-        <span class="overflow-hidden inline-block leading-[0.875] pb-[0.12em]">
+      <div class="flex flex-wrap items-baseline gap-2 sm:gap-3 leading-none">
+        <span class="overflow-hidden inline-block pb-[1.4em]">
           <span
-            class="font-bold text-accent leading-[0.875] whitespace-nowrap inline-block anim-clip-1"
+            class="font-bold text-accent leading-[0.95] whitespace-nowrap inline-block anim-clip-1"
             style="font-size: clamp(52px, 10vw, 160px);"
           >Design</span>
         </span>
-        <span class="inline-block leading-[0.875]" style="font-size: clamp(48px, 10vw, 160px);">
+        <span class="inline-block" style="font-size: clamp(48px, 10vw, 160px);">
           <span
             class="font-serif italic text-grey-42 leading-[0.875] whitespace-nowrap tracking-[-0.012em] inline-block anim-clip-2"
           >{{ displayText }}<span class="typing-cursor"></span></span>
