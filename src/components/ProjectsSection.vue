@@ -21,7 +21,7 @@
         </div>
         <a
           v-reveal="{ delay: 160 }"
-          href="https://github.com/hairara"
+          href="https://radifa.super.site/projects"
           target="_blank"
           rel="noopener"
           class="flex items-center gap-2 bg-dark text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-zinc-700 transition-colors duration-200 shrink-0 self-start sm:self-end"
