@@ -108,6 +108,7 @@ const isProjectDetail = computed(() => route.name === 'project-detail')
 const navLinks = [
   { label: 'Projects', href: '#projects' },
   { label: 'Articles', href: '#articles' },
+  { label: 'Snapshot', href: '#snapshot' },
   { label: 'Resume', href: 'https://drive.google.com/file/d/12sEd0blE65jG5VLEv-6hb74R5_BQe1cq/view?usp=sharing' },
 ]
 
