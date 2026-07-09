@@ -6,7 +6,7 @@
     <router-link
           v-reveal="{ delay: 140 }"
           to="/"
-          class="hidden sm:flex items-center gap-2 rounded-full pl-1 pr-4 py-1 shrink-0 self-start"
+          class="hidden sm:flex items-center gap-2 rounded-full pl-1 pr-4 py-1 shrink-0"
         >
           <img src="/logo-avatar.png" alt="Hairadifa" class="w-8 h-8 rounded-full object-cover shrink-0" />
           <span class="font-semibold text-sm text-dark tracking-wide">HAIRADIFA</span>
