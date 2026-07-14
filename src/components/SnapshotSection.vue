@@ -1,5 +1,5 @@
 <template>
-  <section id="snapshot" class="bg-cream px-4 sm:px-8 lg:px-16 py-20 lg:py-28 pb-2">
+  <section id="snapshot" class="bg-cream px-4 sm:px-4 lg:px-16 py-20 lg:py-28 pb-2">
     <div class="relative bg-cream-light rounded-2xl px-8 py-16 max-w-[1312px] mx-auto h-[480px] sm:h-[580px] lg:h-[700px]">
       <!-- Top inner shadow fade -->
       <div
@@ -11,12 +11,12 @@
 
           <!-- Left column: vertical auto-scroll marquee (upward) -->
           <div class="flex-1 overflow-hidden h-full">
-            <div class="left-col-track flex flex-col gap-8">
+            <div class="left-col-track flex flex-col gap-6">
               <template v-for="pass in 2" :key="pass">
                 <div
                   v-for="img in leftImages"
                   :key="`left-${pass}-${img}`"
-                  class="aspect-[4/3] rounded-2xl bg-border shrink-0 overflow-hidden"
+                  class="aspect-[4/3] rounded-lg bg-border shrink-0 overflow-hidden"
                   :aria-hidden="pass === 2 ? 'true' : undefined"
                 >
                   <img :src="img" alt="" class="w-full h-full object-cover" />
@@ -27,12 +27,12 @@
 
           <!-- Right column: vertical auto-scroll marquee (downward) -->
           <div class="flex-1 overflow-hidden h-full">
-            <div class="right-col-track flex flex-col gap-8">
+            <div class="right-col-track flex flex-col gap-6">
               <template v-for="pass in 2" :key="pass">
                 <div
                   v-for="img in rightImages"
                   :key="`right-${pass}-${img}`"
-                  class="aspect-[4/3] rounded-2xl bg-border shrink-0 overflow-hidden"
+                  class="aspect-[4/3] rounded-lg bg-border shrink-0 overflow-hidden"
                   :aria-hidden="pass === 2 ? 'true' : undefined"
                 >
                   <img :src="img" alt="" class="w-full h-full object-cover" />
