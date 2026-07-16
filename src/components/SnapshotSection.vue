@@ -1,5 +1,5 @@
 <template>
-  <section id="snapshot" class="bg-cream px-4 sm:px-4 lg:px-16 py-20 lg:py-28 pb-2">
+  <section id="snapshot" class="bg-cream px-4 sm:px-4 lg:px-16 pt-20 pb-2 lg:py-28">
     <div class="relative bg-cream-light rounded-2xl px-8 py-16 max-w-[1312px] mx-auto h-[480px] sm:h-[580px] lg:h-[700px]">
       <!-- Top inner shadow fade -->
       <div
