@@ -10,7 +10,7 @@
               class="font-serif font-black text-accent leading-tight"
               style="font-size: clamp(36px, 5.5vw, 72px);"
             >
-              {{ isProjectDetail ? 'Need to more discussion?' : "Let's build" }}
+              {{ isProjectDetail ? 'Need to discuss?' : "Let's build" }}
             </p>
           </div>
           <div class="overflow-hidden">
