@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: 'Integration Device Anesthesia Module',
+    title: 'From 30 Min to 10-13 Min Anesthesia Module',
     client: 'Siloam Hospitals',
     year: '2026',
     tags: ['UX/UI', 'PRODUCT'],

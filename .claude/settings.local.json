@@ -7,7 +7,12 @@
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
-      "Bash(gh pr *)"
+      "Bash(gh pr *)",
+      "Bash(cp \"/Users/putrihairadifa/Downloads/Rifka.Hairadifa.jpg\" \"/Users/putrihairadifa/Portfolio/Test/public/about-photo.jpg\" && echo \"copied\")",
+      "Bash(xargs ls -lt)",
+      "Bash(grep -E \"\\\\.\\(jpg|jpeg|png\\)$\")",
+      "Bash(cp \"/Users/putrihairadifa/Library/Mobile Documents/com~apple~CloudDocs/CV dan Portfolio/Photo.JPG\" \"/Users/putrihairadifa/Portfolio/Test/public/about-photo.jpg\" && echo \"done\")",
+      "Bash(xargs ls -lS)"
     ]
   }
 }
