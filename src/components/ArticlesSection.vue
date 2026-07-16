@@ -5,7 +5,7 @@
       <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-6 mb-14 lg:mb-16">
         <div>
           <div class="overflow-hidden">
-            <h2 v-reveal="{ clip: true }" class="font-bold text-dark leading-tight" style="font-size: clamp(32px, 5vw, 68px);">
+            <h2 v-reveal="{ clip: true }" class="font-serif font-bold text-accent leading-tight" style="font-size: clamp(36px, 5.5vw, 72px);">
               Published Articles
             </h2>
           </div>
@@ -13,7 +13,7 @@
             <h2
               v-reveal="{ clip: true, delay: 90 }"
               class="font-serif italic text-grey-42 leading-tight tracking-[-0.012em]"
-              style="font-size: clamp(28px, 4.5vw, 60px);"
+              style="font-size: clamp(32px, 4vw, 72px);"
             >
               my thought about design
             </h2>
