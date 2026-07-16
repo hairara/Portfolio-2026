@@ -59,15 +59,25 @@
               <p class="text-muted leading-relaxed text-[15px]">
                 My process starts with understanding the business context before touching any screen. Good design is invisible — it works when users accomplish what they came to do without friction. I've collaborated with engineering, product, clinical, and marketing teams in fast-paced organizations, and I thrive in environments where design has real stakes and measurable results.
               </p>
-              <a
-                href="https://www.linkedin.com/in/rifkaputrihairadifa/"
-                target="_blank"
-                rel="noopener"
-                class="flex items-center gap-2 bg-accent text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-accent/80 transition-colors duration-200 self-start mt-1"
-              >
-                View LinkedIn
-                <ArrowIcon :size="16" />
-              </a>
+              <div class="flex flex-wrap gap-3 mt-1">
+                <a
+                  href="https://www.linkedin.com/in/rifkaputrihairadifa/"
+                  target="_blank"
+                  rel="noopener"
+                  class="flex items-center gap-2 bg-accent text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-accent/80 transition-colors duration-200"
+                >
+                  View LinkedIn
+                  <ArrowIcon :size="16" />
+                </a>
+                <a
+                  href="/hairadifa-resume.pdf"
+                  download="Hairadifa Resume 2026.pdf"
+                  class="flex items-center gap-2 border border-accent text-accent rounded-full px-6 py-3 text-sm font-medium hover:bg-accent hover:text-white transition-colors duration-200"
+                >
+                  Download Resume
+                  <ArrowIcon :size="16" />
+                </a>
+              </div>
             </div>
 
             <!-- Quick stats -->
