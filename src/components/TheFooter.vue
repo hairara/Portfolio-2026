@@ -17,7 +17,7 @@
             <p
               v-reveal="{ clip: true, delay: 80 }"
               class="font-serif italic text-grey-42 leading-tight"
-              style="font-size: clamp(36px, 5.5vw, 72px);"
+              style="font-size: clamp(32px, 4vw, 72px);"
             >
               {{ isProjectDetail ? "Let's contact me." : 'something great.' }}
             </p>
@@ -27,7 +27,7 @@
         <router-link
           v-reveal="{ delay: 140 }"
           to="/"
-          class="hidden sm:flex items-center gap-2 rounded-full pl-1 pr-4 py-1 shrink-0 self-start"
+          class="flex items-center gap-2 rounded-full pl-1 pr-4 py-1 shrink-0 self-start"
         >
           <img src="/logo-avatar.png" alt="Hairadifa" class="w-8 h-8 rounded-full object-cover shrink-0" />
           <span class="font-semibold text-sm text-dark tracking-wide">HAIRADIFA</span>
