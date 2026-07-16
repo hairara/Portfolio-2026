@@ -201,11 +201,16 @@
                 </blockquote>
 
                 <!-- Step images -->
-                <div v-if="step.images" class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
-                  <div v-for="img in step.images" :key="img" class="rounded-2xl overflow-hidden aspect-[4/3] bg-border">
-                    <img :src="img" :alt="step.title" class="w-full h-full object-cover" />
+                <template v-if="step.images">
+                  <div v-if="step.images.length === 1" class="rounded-2xl overflow-hidden aspect-[16/9] bg-border mt-2">
+                    <img :src="step.images[0]" :alt="step.title" class="w-full h-full object-cover" />
                   </div>
-                </div>
+                  <div v-else class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
+                    <div v-for="img in step.images" :key="img" class="rounded-2xl overflow-hidden aspect-[4/3] bg-border">
+                      <img :src="img" :alt="step.title" class="w-full h-full object-cover" />
+                    </div>
+                  </div>
+                </template>
 
                 <!-- Sub-steps (step 03 — complex) -->
                 <div v-if="step.isComplex" class="flex flex-col gap-4 mt-2">

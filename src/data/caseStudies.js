@@ -89,6 +89,7 @@ export const caseStudies = {
         label: 'Core Challenge',
         isComplex: true,
         body: 'The most technically demanding part — designing a real-time monitoring interface that integrates with physical medical devices while remaining usable under high-pressure conditions.',
+        images: ['/projects/anesthesia/charting.png'],
         subSteps: [
           {
             id: 'a',
