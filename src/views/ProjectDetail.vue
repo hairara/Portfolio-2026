@@ -200,6 +200,13 @@
                   "{{ step.quote }}"
                 </blockquote>
 
+                <!-- Step images -->
+                <div v-if="step.images" class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
+                  <div v-for="img in step.images" :key="img" class="rounded-2xl overflow-hidden aspect-[4/3] bg-border">
+                    <img :src="img" :alt="step.title" class="w-full h-full object-cover" />
+                  </div>
+                </div>
+
                 <!-- Sub-steps (step 03 — complex) -->
                 <div v-if="step.isComplex" class="flex flex-col gap-4 mt-2">
                   <div

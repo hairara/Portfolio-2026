@@ -2,7 +2,7 @@ export const caseStudies = {
   'anesthesia-module': {
     layout: 'anesthesia',
     projectId: 1,
-    title: 'Integration Device Anesthesia Module',
+    title: 'From 30 Min to 10-13 Min Anesthesia Module',
     subtitle: 'EMR Surgery — Siloam Hospitals',
     cover: '/projects/anesthesia.png',
     meta: [
@@ -145,6 +145,10 @@ export const caseStudies = {
         number: '06',
         title: 'QA & Real-world Testing',
         body: 'I supported QA in UI/UX validation, interaction accuracy, and edge case handling — including live testing in the operating room to observe real clinician behavior under pressure.',
+        images: [
+          '/projects/anesthesia/testing.jpg',
+          '/projects/anesthesia/testing 2.jpeg',
+        ],
       },
     ],
     impact: {
