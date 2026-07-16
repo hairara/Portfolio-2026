@@ -4,31 +4,31 @@
   >
     <!-- Logo -->
     <router-link
-          v-reveal="{ delay: 140 }"
-          to="/"
-          class="flex items-center gap-2 rounded-full pl-1 pr-4 py-1 shrink-0"
-        >
-          <img src="/logo-avatar.png" alt="Hairadifa" class="w-8 h-8 rounded-full object-cover shrink-0" />
-          <span class="font-semibold text-sm text-dark tracking-wide">HAIRADIFA</span>
-        </router-link>
+      v-reveal="{ delay: 140 }"
+      to="/"
+      class="flex items-center gap-2 rounded-full pl-1 pr-4 py-1 shrink-0"
+    >
+      <img src="/logo-avatar.png" alt="Hairadifa" class="w-8 h-8 rounded-full object-cover shrink-0" />
+      <span class="font-semibold text-sm text-dark tracking-wide">HAIRADIFA</span>
+    </router-link>
 
     <!-- Desktop nav -->
     <nav class="hidden md:flex items-center gap-10 lg:gap-12">
-      <a
+      <router-link
         v-for="link in navLinks"
         :key="link.label"
-        :href="link.href"
+        :to="link.to"
         class="text-[15px] text-dark hover:text-accent transition-colors duration-200 font-normal"
       >
         {{ link.label }}
-      </a>
+      </router-link>
     </nav>
 
     <!-- CTA + hamburger -->
     <div class="flex items-center gap-4">
       <a
         href="mailto:rifka.haira16@gmail.com"
-        class="hidden sm:flex items-center gap-2 bg-accent text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-orange-600 transition-colors duration-200"
+        class="hidden sm:flex items-center gap-2 bg-accent text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-accent/80 transition-colors duration-200"
       >
         Hire Me
         <ArrowIcon :size="16" />
@@ -60,15 +60,15 @@
       v-if="mobileOpen"
       class="absolute top-[72px] left-0 right-0 bg-cream border-b border-border px-4 py-6 md:hidden flex flex-col gap-4"
     >
-      <a
+      <router-link
         v-for="link in navLinks"
         :key="link.label"
-        :href="link.href"
+        :to="link.to"
         class="text-[15px] text-dark hover:text-accent font-normal py-2 border-b border-border last:border-0"
         @click="mobileOpen = false"
       >
         {{ link.label }}
-      </a>
+      </router-link>
       <a
         href="mailto:rifka.haira16@gmail.com"
         class="flex items-center gap-2 bg-accent text-white rounded-full px-6 py-3 text-sm font-medium justify-center mt-2"
@@ -88,10 +88,9 @@ import ArrowIcon from './ArrowIcon.vue'
 const mobileOpen = ref(false)
 
 const navLinks = [
-  { label: 'Projects', href: '#projects' },
-  { label: 'Articles', href: '#articles' },
-  { label: 'Snapshot', href: '#snapshot' },
-  { label: 'Resume', href: 'https://drive.google.com/file/d/12sEd0blE65jG5VLEv-6hb74R5_BQe1cq/view?usp=sharing', },
+  { label: 'Projects',  to: '/#projects' },
+  { label: 'Articles',  to: '/#articles' },
+  { label: 'About Me',  to: '/about' },
 ]
 </script>
 

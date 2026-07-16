@@ -27,7 +27,7 @@
         <router-link
           v-reveal="{ delay: 140 }"
           to="/"
-          class="flex items-center gap-2 rounded-full pl-1 pr-4 py-1 shrink-0 self-start"
+          class="hidden sm:flex items-center gap-2 rounded-full pl-1 pr-4 py-1 shrink-0 self-start"
         >
           <img src="/logo-avatar.png" alt="Hairadifa" class="w-8 h-8 rounded-full object-cover shrink-0" />
           <span class="font-semibold text-sm text-dark tracking-wide">HAIRADIFA</span>
@@ -106,10 +106,9 @@ const route = useRoute()
 const isProjectDetail = computed(() => route.name === 'project-detail')
 
 const navLinks = [
-  { label: 'Projects', href: '#projects' },
-  { label: 'Articles', href: '#articles' },
-  { label: 'Snapshot', href: '#snapshot' },
-  { label: 'Resume', href: 'https://drive.google.com/file/d/12sEd0blE65jG5VLEv-6hb74R5_BQe1cq/view?usp=sharing' },
+  { label: 'Projects', href: '/#projects' },
+  { label: 'Articles', href: '/#articles' },
+  { label: 'About Me', href: '/about' },
 ]
 
 const connectLinks = [
