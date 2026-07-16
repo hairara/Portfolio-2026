@@ -24,7 +24,7 @@
           href="https://medium.com/@rifka.haira16"
           target="_blank"
           rel="noopener"
-          class="flex items-center gap-2 bg-dark text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-zinc-700 transition-colors duration-200 shrink-0 self-start sm:self-end"
+          class="flex items-center gap-2 bg-accent text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-accent/80 transition-colors duration-200 shrink-0 self-start sm:self-end"
         >
           View all articles
           <ArrowIcon :size="16" />
@@ -40,7 +40,7 @@
           :href="article.link"
           target="_blank"
           rel="noopener"
-          class=" bg-cream-light group border  rounded-2xl p-6 sm:p-8 flex flex-col gap-4 hover:border-accent/30 transition-colors duration-300 cursor-pointer"
+          class="bg-cream-light group border border-border rounded-2xl p-6 sm:p-8 flex flex-col gap-4 hover:border-accent/30 transition-colors duration-300 cursor-pointer"
         >
           <div class="flex items-start justify-between">
             <span class="text-[11px] font-medium text-muted uppercase tracking-[1.32px]">

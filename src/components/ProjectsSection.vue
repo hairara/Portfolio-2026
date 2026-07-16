@@ -24,7 +24,7 @@
           href="https://radifa.super.site/projects"
           target="_blank"
           rel="noopener"
-          class="flex items-center gap-2 bg-dark text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-zinc-700 transition-colors duration-200 shrink-0 self-start sm:self-end"
+          class="flex items-center gap-2 bg-accent text-white rounded-full px-6 py-3 text-sm font-medium hover:bg-accent/80 transition-colors duration-200 shrink-0 self-start sm:self-end"
         >
           View all projects
           <ArrowIcon :size="16" />

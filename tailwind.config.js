@@ -4,12 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        cream: '#f1f0ea',
-        'cream-light': '#fdfcf3',
-        accent: '#f03c1f',
+        cream: '#fff4e8',
+        'cream-light': '#fff9f4',
+        accent: '#8e5a74',
         dark: '#1a1a1a',
         muted: '#7a7a7a',
-        border: '#d6d1c8',
+        border: '#fbc9ac',
         'grey-42': '#6b6b6b',
       },
       fontFamily: {
