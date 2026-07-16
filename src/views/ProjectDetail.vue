@@ -114,7 +114,7 @@
       </section>
 
       <!-- Objective + My Role -->
-      <section class="px-4 sm:px-8 lg:px-16 py-20 lg:py-28">
+      <section class="px-4 sm:px-8 lg:px-16 pb-20 lg:pb-28">
         <div class="max-w-[1312px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20">
           <!-- Objective -->
           <div>
@@ -265,7 +265,7 @@
       </section>
 
       <!-- Impact -->
-      <section class="px-4 sm:px-8 lg:px-16 py-20 lg:py-28">
+      <section class="px-4 sm:px-8 lg:px-16 pb-20 lg:pb-28">
         <div class="max-w-[1312px] mx-auto">
           <div class="mb-12">
             <p class="font-serif italic text-accent text-xl mb-3">Impact</p>
