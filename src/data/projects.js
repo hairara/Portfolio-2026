@@ -28,7 +28,7 @@ export const projects = [
     client: 'Alodokter',
     year: '2024',
     tags: ['UX/UI', 'PRODUCT'],
-    image: '/projects/alomedika.png?v=3',
+    image: '/projects/alomedika.png',
     bgColor: '#0f172a',
     slug: 'alomedika-smart-prescription',
     size: 'large',

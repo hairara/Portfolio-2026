@@ -3,7 +3,7 @@ export const alomedikaStudy = {
   projectId: 3,
   title: 'How We Increased Prescription Fulfillment by 65% in Rural Clinics',
   subtitle: 'Alomedika — Alodokter',
-  cover: '/projects/alomedika.png?v=3',
+  cover: '/projects/alomedika.png',
   meta: [
     { label: 'Company', value: 'Alodokter' },
     { label: 'Year', value: '2024' },
