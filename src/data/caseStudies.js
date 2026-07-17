@@ -82,6 +82,9 @@ export const caseStudies = {
           'Focus on speed and zero relearning',
         ],
         outcome: 'Design completed in ~1 week. Minimal resistance from clinical staff.',
+        images: [
+          '/projects/anesthesia/anestesi after.png',
+        ],
       },
       {
         number: '03',
