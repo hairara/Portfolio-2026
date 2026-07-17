@@ -35,7 +35,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Seamless Experience Setting Menu',
+    title: 'Making Subscription Status and Rewards Impossible to Miss',
     client: 'Vidio',
     year: '2023',
     tags: ['UX/UI', 'RESEARCH'],
