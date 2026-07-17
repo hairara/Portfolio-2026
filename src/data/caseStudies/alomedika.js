@@ -1,7 +1,7 @@
 export const alomedikaStudy = {
   layout: 'alomedika',
   projectId: 3,
-  title: 'Designing for Access',
+  title: 'How We Increased Prescription Fulfillment by 65% in Rural Clinics',
   subtitle: 'Smart Prescription — Alodokter · 2024',
   cover: '/projects/alomedika.png?v=3',
   meta: [
@@ -10,7 +10,7 @@ export const alomedikaStudy = {
     { label: 'Scope', value: 'UI/UX Design, Product Strategy' },
   ],
   opener: {
-    headline: 'How We Helped Rural Doctors Prescribe Medicine Without a Pharmacy',
+    headline: 'When Treatment Stops at the Prescription',
     narrative: [
       'A doctor in a small rural clinic finishes examining a patient. The diagnosis is clear. The treatment is straightforward.',
       'But then comes the real problem. There\'s no pharmacy nearby.',
