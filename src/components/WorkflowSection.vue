@@ -20,7 +20,7 @@
           v-for="step in steps"
           :key="step.id"
           v-reveal="{ scale: true, delay: (step.id - 1) * 70 }"
-          class="bg-cream-light group border rounded-2xl p-6 sm:p-8 lg:p-10 grid grid-cols-[56px_1fr] gap-x-2"
+          class="bg-cream-light group border-border border rounded-2xl p-6 sm:p-8 lg:p-10 grid grid-cols-[56px_1fr] gap-x-2"
         >
           <span class="text-[11px] font-medium text-muted uppercase tracking-[1.32px] pt-1">
             {{ step.number }}
