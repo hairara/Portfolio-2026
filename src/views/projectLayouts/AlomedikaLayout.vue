@@ -110,7 +110,7 @@
           v-for="(platform, i) in study.ecosystem"
           :key="platform.name"
           class="relative rounded-2xl border border-border p-6 sm:p-8 flex flex-col gap-4"
-          :class="i === 1 ? 'bg-accent/5 border-accent/30' : 'bg-cream-light'"
+          :class="'bg-cream-light'"
         >
           <div class="flex items-start justify-between gap-2">
             <h3 class="font-semibold text-dark text-base">{{ platform.name }}</h3>
