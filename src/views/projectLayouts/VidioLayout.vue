@@ -74,7 +74,10 @@
         <div>
           <p class="text-[11px] font-medium text-muted uppercase tracking-[1.32px]">The Problem</p>
         </div>
-        <p class="text-[16px] text-muted leading-relaxed max-w-2xl">{{ study.problem.intro }}</p>
+        <div class="flex flex-col gap-4">
+          <p class="text-[16px] text-muted leading-relaxed max-w-2xl">{{ study.problem.intro }}</p>
+          <p class="font-serif italic text-accent" style="font-size: clamp(18px, 2vw, 24px); line-height: 1.5;">"{{ study.problem.quote }}"</p>
+        </div>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <div
@@ -86,10 +89,13 @@
           <p class="text-[14px] text-muted/80 leading-relaxed">{{ issue.desc }}</p>
         </div>
       </div>
-      <div class="rounded-2xl bg-cream-light border border-border p-8 sm:p-12">
-        <p class="font-serif italic text-dark text-center" style="font-size: clamp(18px, 2.5vw, 28px); line-height: 1.55;">
-          "{{ study.problem.quote }}"
-        </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="rounded-2xl overflow-hidden bg-zinc-100 border border-border">
+          <img src="/projects/vidio/struktur.png" alt="Information Architecture" class="w-full h-full object-cover" />
+        </div>
+        <div class="rounded-2xl overflow-hidden bg-zinc-100 border border-border">
+          <img src="/projects/vidio/old design.png" alt="Old Design" class="w-full h-full object-cover" />
+        </div>
       </div>
     </div>
   </section>
