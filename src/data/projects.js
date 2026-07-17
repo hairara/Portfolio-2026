@@ -31,6 +31,7 @@ export const projects = [
     image: '/projects/alomedika.png?v=3',
     bgColor: '#0f172a',
     link: 'https://github.com/hairara/Portfolio',
+    slug: 'alomedika-smart-prescription',
     size: 'large',
   },
   {
