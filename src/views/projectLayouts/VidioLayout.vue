@@ -152,5 +152,5 @@
 </template>
 
 <script setup>
-defineProps({ study: { type: Object, required: true } })
+import { vidioStudy as study } from '../../data/caseStudies/vidio'
 </script>

@@ -275,5 +275,5 @@
 </template>
 
 <script setup>
-defineProps({ study: { type: Object, required: true } })
+import { anesthesiaStudy as study } from '../../data/caseStudies/anesthesia'
 </script>

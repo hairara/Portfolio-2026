@@ -243,5 +243,5 @@
 </template>
 
 <script setup>
-defineProps({ study: { type: Object, required: true } })
+import { alomedikaStudy as study } from '../../data/caseStudies/alomedika'
 </script>
