@@ -91,9 +91,19 @@
       <div>
         <p class="text-[11px] font-medium text-muted uppercase tracking-[1.32px]">The Solution</p>
       </div>
-      <div class="flex flex-col gap-5">
-        <h2 class="font-semibold text-accent text-xl">{{ study.solution.name }}</h2>
-        <p class="text-[17px] sm:text-[19px] text-dark leading-relaxed max-w-2xl">{{ study.solution.desc }}</p>
+      <div class="flex flex-col gap-8">
+        <div class="flex flex-col gap-5">
+          <h2 class="font-semibold text-accent text-xl">{{ study.solution.name }}</h2>
+          <p class="text-[17px] sm:text-[19px] text-dark leading-relaxed max-w-2xl">{{ study.solution.desc }}</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="rounded-2xl overflow-hidden border bg-cream-light">
+            <img src="/projects/alomedika/solution1.png" alt="Solution 1" class="w-full h-full object-cover" />
+          </div>
+          <div class="rounded-2xl overflow-hidden border bg-cream-light">
+            <img src="/projects/alomedika/solution2.png" alt="Solution 2" class="w-full h-full object-cover" />
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -189,14 +199,19 @@
         <p class="text-[11px] font-medium text-muted uppercase tracking-[1.32px]">Behind the Scenes</p>
         <p class="text-[13px] text-muted mt-2 leading-relaxed">None of this complexity surfaced in the UI.</p>
       </div>
-      <div class="flex flex-col gap-3">
-        <div
-          v-for="item in study.complexity"
-          :key="item"
-          class="flex items-start gap-4 py-4 border-b border-border first:border-t"
-        >
-          <span class="text-accent shrink-0 font-semibold mt-0.5">✓</span>
-          <p class="text-[15px] text-dark leading-relaxed">{{ item }}</p>
+      <div class="flex flex-col gap-8">
+        <div class="flex flex-col gap-3">
+          <div
+            v-for="item in study.complexity"
+            :key="item"
+            class="flex items-start gap-4 py-4 border-b border-border first:border-t"
+          >
+            <span class="text-accent shrink-0 font-semibold mt-0.5">✓</span>
+            <p class="text-[15px] text-dark leading-relaxed">{{ item }}</p>
+          </div>
+        </div>
+        <div class="rounded-2xl overflow-hidden border bg-cream-light">
+          <img src="/projects/alomedika/solutionlogic.png" alt="Solution Logic" class="w-full h-auto" />
         </div>
       </div>
     </div>
@@ -204,24 +219,34 @@
 
   <!-- Learnings + Gaps -->
   <section class="px-4 sm:px-8 lg:px-16 py-20 lg:py-28 border-t border-border">
-    <div class="max-w-[1312px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
-      <div class="flex flex-col gap-6">
-        <p class="text-[11px] font-medium text-muted uppercase tracking-[1.32px]">What We Learned</p>
-        <h3 class="font-semibold text-dark text-xl">{{ study.learnings.headline }}</h3>
-        <p class="text-[15px] text-muted leading-relaxed">{{ study.learnings.body }}</p>
+    <div class="max-w-[1312px] mx-auto flex flex-col gap-12">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20">
+        <div class="flex flex-col gap-6">
+          <p class="text-[11px] font-medium text-muted uppercase tracking-[1.32px]">What We Learned</p>
+          <h3 class="font-semibold text-dark text-xl">{{ study.learnings.headline }}</h3>
+          <p class="text-[15px] text-muted leading-relaxed">{{ study.learnings.body }}</p>
+        </div>
+        <div class="flex flex-col gap-6">
+          <p class="text-[11px] font-medium text-muted uppercase tracking-[1.32px]">What We Couldn't Measure Yet</p>
+          <ul class="flex flex-col gap-3">
+            <li
+              v-for="gap in study.gaps"
+              :key="gap"
+              class="flex items-start gap-3 text-[15px] text-muted leading-relaxed"
+            >
+              <span class="shrink-0 text-border mt-1 font-semibold">○</span>
+              {{ gap }}
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="flex flex-col gap-6">
-        <p class="text-[11px] font-medium text-muted uppercase tracking-[1.32px]">What We Couldn't Measure Yet</p>
-        <ul class="flex flex-col gap-3">
-          <li
-            v-for="gap in study.gaps"
-            :key="gap"
-            class="flex items-start gap-3 text-[15px] text-muted leading-relaxed"
-          >
-            <span class="shrink-0 text-border mt-1 font-semibold">○</span>
-            {{ gap }}
-          </li>
-        </ul>
+      <div class="flex flex-col gap-4">
+        <div class="rounded-2xl overflow-hidden border bg-cream-light">
+          <img src="/projects/alomedika/bigpicturesolution.png" alt="Big Picture Solution" class="w-full h-auto" />
+        </div>
+        <p class="text-[13px] text-muted leading-relaxed italic text-center">
+          Detailed use cases and flow documentation for this project are currently being prepared — updates coming soon.
+        </p>
       </div>
     </div>
   </section>
