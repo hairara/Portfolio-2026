@@ -14,7 +14,9 @@
       "Bash(cp \"/Users/putrihairadifa/Library/Mobile Documents/com~apple~CloudDocs/CV dan Portfolio/Photo.JPG\" \"/Users/putrihairadifa/Portfolio/Test/public/about-photo.jpg\" && echo \"done\")",
       "Bash(xargs ls -lS)",
       "Bash(npx vite *)",
-      "Bash(brew install *)"
+      "Bash(brew install *)",
+      "WebFetch(domain:app.notion.com)",
+      "WebFetch(domain:radifa.super.site)"
     ]
   }
 }
