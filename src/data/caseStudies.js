@@ -154,6 +154,13 @@ export const caseStudies = {
           '/projects/anesthesia/testing 2.jpeg',
         ],
       },
+      {
+        number: '07',
+        title: 'Gather Feedback After Go-Live',
+        body: 'Post-launch, I stayed on for maintenance and actively gathered feedback from clinical users in the field. One of the most significant pieces of feedback was that the overview section needed to be clearer and wider.',
+        insight: 'This gap came from a miscommunication between design and development — even though my designs included detailed annotations, not every developer reads them thoroughly. The result was a UI that diverged from the intended design. It was a reminder that handoff is not just about documentation, but about communication. Fortunately, we had time in the enhancement phase to realign and fix it properly.',
+        images: ['/projects/anesthesia/Monitoring expand.png'],
+      },
     ],
     impact: {
       beforeMetric: '30+',
