@@ -1,85 +1,95 @@
 export const vidioStudy = {
   projectId: 4,
   badge: 'Case Study',
-  title: 'Improving Account Setting and Navigation Menu',
-  titleAccent: 'with Status Subscriptions and Vidio Rewards.',
+  title: 'Making Subscription Status and Rewards Impossible to Miss',
   client: 'Vidio.com',
   role: 'UI/UX Designer',
   scope: ['UI Design', 'UX Design', 'Prototyping', 'Testing', 'Detailing'],
   year: '2023',
   cover: '/projects/vidio.png?v=2',
-  overview:
-    'Vidio is Indonesia’s largest OTT streaming platform, offering live TV, news, sports, and entertainment content to millions of users. This project focused on redesigning the Account Settings page to make subscription status, rewards, and personal information easier to find and understand.',
-  problems: [
+
+  context: {
+    intro: 'In a subscription-based product, clarity is everything.',
+    body: 'Users don\'t just want access — they want to understand what they\'re paying for, what they\'re getting, and what they can do next. But in our case, that clarity was missing.',
+    detail: 'Critical information like subscription status and rewards lived in separate places, buried inside a navigation structure that required effort to explore. As a result, users were often unsure:',
+    questions: [
+      '"Am I still subscribed?"',
+      '"Where do I check my benefits?"',
+      '"Do I even have rewards?"',
+    ],
+    close: 'This wasn\'t just a UX issue — it was a product experience gap.',
+  },
+
+  problem: {
+    intro: 'Through observation and internal feedback, we identified a pattern: users weren\'t engaging with features — not because they didn\'t find them useful, but because they didn\'t know they existed or couldn\'t find them easily.',
+    issues: [
+      { label: 'Invisible status', desc: 'Subscription state (active, expired, trial) wasn\'t immediately visible.' },
+      { label: 'Hidden value', desc: 'Rewards existed, but lacked presence and context.' },
+      { label: 'Cognitive overload', desc: 'Navigation was cluttered, forcing users to scan and guess.' },
+    ],
+    quote: 'We made users think too much for something that should feel obvious.',
+  },
+
+  insight: {
+    reframe: 'This is not a navigation problem. This is a prioritization problem.',
+    body: 'The interface treated all menu items equally — while in reality, not all information has equal importance. Users don\'t open account settings to browse. They come with intent:',
+    intents: ['Check subscription', 'Manage account', 'Access benefits'],
+    close: 'So instead of adding more, we needed to surface what matters most.',
+  },
+
+  approach: [
     {
       number: '01',
-      title: 'Navigation Confusion',
-      description:
-        'Users struggled to locate the account menu because it lived in an unexpected spot — the top-right corner instead of the bottom navigation — paired with unfamiliar icons.',
+      title: 'Make important things visible by default',
+      desc: 'If users care about subscription status, it should not be hidden behind taps.',
     },
     {
       number: '02',
-      title: 'Information Overload',
-      description:
-        'The settings page surfaced irrelevant elements that confused users, including obscure fields like usernames and unclear helper text scattered across menu options.',
+      title: 'Reduce decision-making',
+      desc: 'Navigation should guide — not overwhelm.',
     },
     {
       number: '03',
-      title: 'Time-Consuming Tasks',
-      description:
-        'Simple actions — checking subscription status or updating personal data — took too long due to nested dropdowns, inconsistent colors, mismatched icons, and repeated information.',
+      title: 'Connect value to context',
+      desc: 'Rewards shouldn\'t feel like a separate feature — they should feel like part of the subscription experience.',
     },
   ],
-  goals: [
-    'Support a better account setting experience',
-    'Support an improved subscription and Vidio Rewards experience',
-    'Provide more valuable widget information at a glance',
-  ],
-  process: {
-    title: 'Competitive Analysis',
-    description:
-      'To understand best practices, I benchmarked four platforms — YouTube Premium, Tiket.com, Gojek, and Grab — comparing element layout, information hierarchy, and placement. The key takeaway: the strongest experiences balance rich information with visual restraint, surfacing what matters without overwhelming the user.',
-  },
+
   solutions: [
     {
-      number: '01',
-      title: 'User Affinity Personalization',
-      description:
-        'Worked with cross-functional teams to define which elements should appear for different user personas, based on their context and current subscription status.',
+      title: 'Subscription Status Card',
+      label: 'Top-Level Placement',
+      desc: 'A persistent, highly visible component showing current status — Active, Expired, or Trial.',
     },
     {
-      number: '02',
-      title: 'Profile Section Redesign',
-      description:
-        'Revamped the profile area to improve visibility of key elements, clearly display subscription status, and increase awareness of Vidio Rewards — supporting a stronger subscription experience overall.',
+      title: 'Rewards Integration',
+      label: 'Elevated into Main Flow',
+      desc: 'Rewards were no longer hidden, but positioned as a key benefit alongside subscription status.',
     },
     {
-      number: '03',
-      title: 'Effortless Navigation Menu',
-      description:
-        'Removed dropdowns and unnecessary helper text so subscription information is accessible without extra clicks — resulting in a more direct, confident user experience.',
+      title: 'Simplified Navigation Structure',
+      label: 'Reduced Complexity',
+      desc: 'Reduced menu complexity and grouped related items logically to lower scanning effort.',
+    },
+    {
+      title: 'Improved Labeling & Visual Hierarchy',
+      label: 'Clarity at a Glance',
+      desc: 'Clearer naming, better spacing, and stronger emphasis on key actions.',
     },
   ],
-  validation: [
-    {
-      title: 'Design Preference',
-      description:
-        'Participants strongly preferred the new design, valuing immediate access to information without needing to click through menus.',
-    },
-    {
-      title: 'Element Attractiveness',
-      description:
-        'Users were pleasantly surprised by the visible subscription status, noting a clear distinction between free and paid accounts.',
-    },
-    {
-      title: 'Flow Clarity',
-      description:
-        'The redesigned navigation menu felt intuitive and efficient, helping users complete tasks faster than before.',
-    },
-  ],
-  insights: [
-    'Immediate information visibility was the most-cited reason participants preferred the new design.',
-    'Surfacing subscription status removed confusion about account type and entitlements.',
-    'Clear visual differentiation between free and premium users improved overall account awareness.',
-  ],
+
+  impact: {
+    bullets: [
+      'Users could instantly understand their subscription status',
+      'Rewards became more discoverable and actionable',
+      'Navigation required less effort and fewer steps',
+      'Overall experience felt faster, clearer, and more intentional',
+    ],
+    shiftBefore: '"Where do I find this?"',
+    shiftAfter: '"Everything I need is already here."',
+  },
+
+  takeaway: {
+    headline: 'Good navigation is not about adding structure. It\'s about removing ambiguity.',
+  },
 }
