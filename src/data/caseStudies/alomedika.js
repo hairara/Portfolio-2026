@@ -2,7 +2,7 @@ export const alomedikaStudy = {
   layout: 'alomedika',
   projectId: 3,
   title: 'How We Increased Prescription Fulfillment by 65% in Rural Clinics',
-  subtitle: 'Smart Prescription — Alodokter · 2024',
+  subtitle: 'Alomedika — Alodokter',
   cover: '/projects/alomedika.png?v=3',
   meta: [
     { label: 'Company', value: 'Alodokter' },

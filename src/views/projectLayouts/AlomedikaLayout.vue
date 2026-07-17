@@ -235,7 +235,7 @@
           "{{ study.reflection }}"
         </p>
         <div class="w-8 h-0.5 rounded-full bg-accent"></div>
-        <p class="text-[13px] text-muted">Rifka Hairadifa — UI/UX Designer</p>
+        <p class="text-[13px] text-muted">Hairadifa — UI/UX Designer</p>
       </div>
     </div>
   </section>
