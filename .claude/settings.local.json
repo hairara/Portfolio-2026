@@ -13,7 +13,8 @@
       "Bash(grep -E \"\\\\.\\(jpg|jpeg|png\\)$\")",
       "Bash(cp \"/Users/putrihairadifa/Library/Mobile Documents/com~apple~CloudDocs/CV dan Portfolio/Photo.JPG\" \"/Users/putrihairadifa/Portfolio/Test/public/about-photo.jpg\" && echo \"done\")",
       "Bash(xargs ls -lS)",
-      "Bash(npx vite *)"
+      "Bash(npx vite *)",
+      "Bash(brew install *)"
     ]
   }
 }

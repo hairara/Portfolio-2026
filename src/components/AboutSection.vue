@@ -120,7 +120,7 @@ const stats = [
   { value: '3+',      label: 'Years of experience' },
   { value: '4',       label: 'Companies' },
   { value: 'Jakarta', label: 'Based in' },
-  { value: 'Open',    label: 'For freelance', accent: true },
+  { value: 'Open',    label: 'For any opportunities', accent: true },
 ]
 
 const experiences = [
